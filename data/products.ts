@@ -19,6 +19,6 @@ export const products = [
     price: 29.99,
     image: '/images/tshirt3.jpg',
     description: 'Experience premium quality and comfort.',
-  },
-
+  },
+  
 ];
