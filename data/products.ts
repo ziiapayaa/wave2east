@@ -6,4 +6,11 @@ export const products = [
     image: '/images/tshirt1.jpg',
     description: 'A timeless classic for everyday wear.',
   },
+  {
+    id: 2,
+    name: 'Graphic T-Shirt',
+    price: 24.99,
+    image: '/images/tshirt2.jpg',
+    description: 'Express yourself with bold graphics.',
+  },
 ];
