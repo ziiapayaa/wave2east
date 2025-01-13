@@ -19,6 +19,13 @@ export default function HomePage() {
               alt={product.name}
               className="w-full h-48 object-cover"
             />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-gray-800">{product.name}</h3>
+              <p className="text-gray-600 text-sm mt-1">{product.description}</p>
+              <div className="mt-4 flex justify-between items-center">
+                <span className="text-xl font-bold text-blue-600">${product.price}</span>
+              </div>
+            </div>
           </div>
         ))}
       </div>
