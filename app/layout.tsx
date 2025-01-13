@@ -17,7 +17,7 @@ export default function RootLayout({
       <body>
       {/* Area Header */}
       <header className='text-menu'>
-        <a href={"/"}>Rumah</a> |
+        <a href={"/"}>Ru</a> |
         <Link href={"/profil"}> Profil</Link> |
         Misi |
         Kontak 
