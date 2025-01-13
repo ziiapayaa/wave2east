@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-  font-family: Arial, sans-serif;
+  @apply bg-gray-50 text-gray-800 font-sans;
+}
+
+a {
+  @apply text-blue-600 hover:underline;
 }
