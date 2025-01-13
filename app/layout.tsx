@@ -1,14 +1,10 @@
-import './globals.css';
-
-export const metadata = {
-  title: 'T-Shirt Catalog',
-  description: 'A simple T-shirt catalog built with Next.js',
-};
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-       <html lang="en">
       <body className="bg-gray-50 text-gray-800">
         <header className="bg-white shadow-lg sticky top-0 z-50">
           <div className="container mx-auto flex items-center justify-between py-4 px-6">
@@ -24,8 +20,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </footer>
       </body>
-    </html>
-
     </html>
   );
 }
