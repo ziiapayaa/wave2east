@@ -23,7 +23,7 @@ export const products = [
   {
     id: 4,
     name: 'TSHIRT LUSSINA BLACK',
-    price: 29.99,
+    price: 200.00,
     image: '/images/product4.jpg',
     description: 'Experience premium quality and comfort.',
   },
