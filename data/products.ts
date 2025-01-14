@@ -8,7 +8,7 @@ export const products = [
   },
   {
     id: 2,
-    name: 'Graphic T-Shirt',
+    name: 'TSHIRT GELVIRA BLACK',
     price: 24.99,
     image: '/images/product2.jpg',
     description: 'Express yourself with bold graphics.',
