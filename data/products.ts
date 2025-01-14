@@ -10,7 +10,7 @@ export const products = [
     id: 2,
     name: 'Graphic T-Shirt',
     price: 24.99,
-    image: '/images/tshirt2.jpg',
+    image: '/images/product2.jpg',
     description: 'Express yourself with bold graphics.',
   },
   {
