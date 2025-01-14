@@ -66,7 +66,7 @@ export const products = [
     id: 10,
     name: 'TSHIRT EMIRIA WHITE',
     price: 200.00,
-    image: '/images/product.jpg',
+    image: '/images/product10.jpg',
     description: 'Experience premium quality and comfort.',
   },
   
