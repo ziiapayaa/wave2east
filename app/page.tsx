@@ -12,6 +12,7 @@ export default function HomePage() {
         {products.map((product) => (
           <div
             key={product.id}
+            className="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition transform duration-300 max-w-xs mx-auto"
           >
             <div className="w-full">
               <img
