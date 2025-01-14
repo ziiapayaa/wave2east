@@ -8,11 +8,11 @@ export default function HomePage() {
         <h2 className="text-3xl font-bold text-gray-800">Our Latest T-Shirts</h2>
         <p className="text-gray-600 mt-2">Find the perfect T-shirt for your style and comfort.</p>
       </section>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {products.map((product) => (
           <div
             key={product.id}
-            className="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition transform duration-300"
+            className="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition transform duration-300 w-full"
           >
             <div className="w-full aspect-w-4 aspect-h-3">
               <img
@@ -31,7 +31,6 @@ export default function HomePage() {
           </div>
         ))}
       </div>
-
     </div>
   );
 }
