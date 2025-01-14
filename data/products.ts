@@ -64,9 +64,9 @@ export const products = [
   },
   {
     id: 10,
-    name: 'TSHIRT EMELINA BLACK',
+    name: 'TSHIRT EMIRIA WHITE',
     price: 200.00,
-    image: '/images/product5.jpg',
+    image: '/images/product.jpg',
     description: 'Experience premium quality and comfort.',
   },
   
