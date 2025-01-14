@@ -45,7 +45,7 @@ export const products = [
     id: 7,
     name: 'TSHIRT HYNORA BLACK',
     price: 200.00,
-    image: '/images/product5.jpg',
+    image: '/images/product7.jpg',
     description: 'Experience premium quality and comfort.',
   },
   
