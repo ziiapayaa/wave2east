@@ -52,7 +52,7 @@ export const products = [
     id: 8,
     name: 'TSHIRT EMELINA BLACK',
     price: 200.00,
-    image: '/images/product5.jpg',
+    image: '/images/product8.jpg',
     description: 'Experience premium quality and comfort.',
   },
   
