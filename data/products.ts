@@ -29,7 +29,7 @@ export const products = [
   },
   {
     id: 5,
-    name: 'Premium T-Shirt',
+    name: 'TSHIRT EMELINA BLACK',
     price: 29.99,
     image: '/images/product5.jpg',
     description: 'Experience premium quality and comfort.',
