@@ -20,5 +20,12 @@ export const products = [
     image: '/images/tshirt3.jpg',
     description: 'Experience premium quality and comfort.',
   },
+  {
+    id: 4,
+    name: 'Premium T-Shirt',
+    price: 29.99,
+    image: '/images/tshirt3.jpg',
+    description: 'Experience premium quality and comfort.',
+  },
   
 ];
