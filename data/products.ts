@@ -70,3 +70,7 @@ export const products = [
     description: 'Experience premium quality and comfort.',
   },
 ];
+
+products.forEach((product) => {
+  console.log(`${product.name}: ${product.price}`);
+});
