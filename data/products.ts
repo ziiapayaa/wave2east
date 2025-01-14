@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: 'TSHIRT ISVERRA WHITE',
-    price: 19.99,
+    price: 200.000,
     image: '/images/tshirt1.jpg',
     description: 'A timeless classic for everyday wear.',
   },
