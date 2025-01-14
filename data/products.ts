@@ -43,7 +43,7 @@ export const products = [
   },
   {
     id: 7,
-    name: 'TSHIRT EMELINA BLACK',
+    name: 'TSHIRT HYNORA BLACK',
     price: 200.00,
     image: '/images/product5.jpg',
     description: 'Experience premium quality and comfort.',
