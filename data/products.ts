@@ -38,7 +38,7 @@ export const products = [
     id: 6,
     name: 'TSHIRT EIMY BLACK',
     price: 200.00,
-    image: '/images/product5.jpg',
+    image: '/images/product6.jpg',
     description: 'Experience premium quality and comfort.',
   },
   
