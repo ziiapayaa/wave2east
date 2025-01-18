@@ -14,6 +14,12 @@ export default function AboutPage() {
             <span className="inline-block w-48">📍 Address</span>: 
             <a href="https://www.google.com/maps?q=Jl+Angsana+Raya+Blok+A+6+Sektor+1.1+BSD+City,+South+Tangerang+15318"
             target="_blank" rel="noopener noreferrer" className="text-blue-500"> Jl angsana raya blok A 6 sektor 1.1 BSD city</a> <br />
+
+            <span className="inline-block w-48">📞 Call/WhatsApp</span>: 
+            <a href="https://wa.me/+6287880620990" 
+            target="_blank" rel="noopener noreferrer" className="text-blue-500">087880620990</a> <br /> 
+            
+               
         </p>
        
        </p>
