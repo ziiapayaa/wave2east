@@ -8,8 +8,8 @@ export default function AboutPage() {
         <p className="text-gray-700 mt-4 text-lg leading-relaxed text-justify">
             We are always ready to help you! If you have questions regarding products, orders, or cooperation, don't hesitate to contact us 
             using the following information:
-          </p>
-          kontak perusahaan 
+        </p>
+        <p className="text-gray-700 mt-4 text-lg leading-relaxed text-justify"></p>
        
       </div>
     );
