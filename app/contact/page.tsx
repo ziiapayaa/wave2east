@@ -27,6 +27,10 @@ export default function AboutPage() {
             <a href="https://thanksinsomniastore.com/" 
             target="_blank" rel="noopener noreferrer" className="text-blue-500">thanksinsomniastore.com</a> <br />
 
+            <span className="inline-block w-48">📸 Instagram</span> :
+            <a href="https://instagram.com/thanksinsomnia" 
+            target="_blank" rel="noopener noreferrer" className="text-blue-500">thxnsmncatalog</a>
+          </p>
 
         </p>
        
