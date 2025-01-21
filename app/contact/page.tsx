@@ -22,6 +22,9 @@ export default function ContactPage() {
           For a faster response, you can also contact us via Direct Message on Instagram or via our WhatsApp.
           </p>
         </div>
+        <footer className="fixed bottom-0 w-full text-center py-4 bg-white shadow-md text-gray-600">
+          © 2025 T-Shirt Store. All Rights Reserved.
+        </footer>
       </div>
     );
 }
