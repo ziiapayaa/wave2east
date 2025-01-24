@@ -1,3 +1,5 @@
+"use client";
+
 import { products } from '../data/products';
 import './globals.css';
 
