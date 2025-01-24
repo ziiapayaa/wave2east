@@ -8,6 +8,31 @@ export default function HomePage() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+  const openModal = (product: Product) => {
+    setSelectedProduct(product);
+    setCurrentImageIndex(0);~~
+  };
+
+  const closeModal = () => {
+    setSelectedProduct(null);
+  };
+
+  const nextImage = () => {
+    if (selectedProduct) {
+      setCurrentImageIndex((prevIndex) =>
+        prevIndex < selectedProduct.images.length - 1 ? prevIndex + 1 : 0
+      );
+    }
+  };
+
+  const prevImage = () => {
+    if (selectedProduct) {
+      setCurrentImageIndex((prevIndex) =>
+        prevIndex > 0 ? prevIndex - 1 : selectedProduct.images.length - 1
+      );
+    }
+  };
+
   return (
     <div>
       <section className="text-center py-8">
