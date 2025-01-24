@@ -1,11 +1,13 @@
-export const products = [
-  {
-    id: 1,
-    name: 'TSHIRT ISVERRA WHITE',
-    price: 200.000.toFixed(3),
-    image: '/images/tshirt1.jpg',
-    description: 'A timeless classic for everyday wear.',
-  },
+export interface Product {
+  id: number;
+  name: string;
+  description: string;
+  price: number;
+  image: string;
+  images: string[];
+}
+
+export const products: Product[] = [
   {
     id: 2,
     name: 'TSHIRT GELVIRA BLACK',
@@ -71,6 +73,3 @@ export const products = [
   },
 ];
 
-products.forEach((product) => {
-  console.log(`${product.name}: ${product.price}`);
-});

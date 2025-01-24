@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { products } from '../data/products';
-import './globals.css';~
+import { products, Product } from "../data/products";
+import "./globals.css";
 
 export default function HomePage() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
@@ -10,7 +10,7 @@ export default function HomePage() {
 
   const openModal = (product: Product) => {
     setSelectedProduct(product);
-    setCurrentImageIndex(0);~~
+    setCurrentImageIndex(0); // Mulai dari gambar pertama saat modal dibuka
   };
 
   const closeModal = () => {
@@ -35,11 +35,13 @@ export default function HomePage() {
 
   return (
     <div>
+      {/* Header */}
       <section className="text-center py-8">
         <h2 className="text-3xl font-extrabold text-gray-800">Our Latest Products</h2>
         <p className="text-gray-600 mt-2">Find the perfect product for your style and comfort.</p>
       </section>
 
+      {/* Product Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
         {products.map((product) => (
           <div
@@ -61,6 +63,7 @@ export default function HomePage() {
         ))}
       </div>
 
+      {/* Modal */}
       {selectedProduct && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
@@ -70,6 +73,7 @@ export default function HomePage() {
             className="bg-white rounded-lg p-6 shadow-lg relative max-w-md w-full"
             onClick={(e) => e.stopPropagation()}
           >
+            {/* Tombol Close */}
             <button
               className="absolute top-2 right-2 w-8 h-8 bg-gray-400 bg-opacity-50 text-white rounded-full flex items-center justify-center hover:bg-gray-500 hover:bg-opacity-70 transition duration-300 ease-in-out z-10"
               onClick={closeModal}
@@ -77,7 +81,9 @@ export default function HomePage() {
               <span className="text-xl font-semibold">X</span>
             </button>
 
+            {/* Gambar dengan slide */}
             <div className="flex justify-center items-center relative">
+              {/* Tombol Previous */}
               <button
                 className="absolute left-[-15px] top-1/2 transform -translate-y-1/2 w-8 h-8 bg-gray-400 bg-opacity-50 text-white rounded-full flex items-center justify-center hover:bg-gray-500 hover:bg-opacity-70 z-10"
                 onClick={prevImage}
@@ -86,12 +92,14 @@ export default function HomePage() {
                 &#60;
               </button>
 
+              {/* Gambar Produk */}
               <img
-                src={selectedProduct.images[currentImageIndex]} 
+                src={selectedProduct.images[currentImageIndex]} // Menampilkan gambar sesuai index
                 alt={selectedProduct.name}
                 className="w-full h-auto rounded-md mb-4"
               />
-~
+
+              {/* Tombol Next */}
               <button
                 className="absolute right-[-15px] top-1/2 transform -translate-y-1/2 w-8 h-8 bg-gray-400 bg-opacity-50 text-white rounded-full flex items-center justify-center hover:bg-gray-500 hover:bg-opacity-70 z-10"
                 onClick={nextImage}
