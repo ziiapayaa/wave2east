@@ -1,9 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import { products } from '../data/products';
-import './globals.css';
+import './globals.css';~
 
 export default function HomePage() {
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
   return (
     <div>
       <section className="text-center py-8">
